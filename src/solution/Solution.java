@@ -1,11 +1,11 @@
-package booksystem;
+package solution;
 
-public class BookSystem {
+class Solution {
     public String name;
     public String author;
     public String isbn;
 
-    public BookSystem(String n, String a, String i) {
+    public Solution(String n, String a, String i) {
         name = n;
         author = a;
         isbn = i;
@@ -22,3 +22,4 @@ public class BookSystem {
 
     }
 }
+
